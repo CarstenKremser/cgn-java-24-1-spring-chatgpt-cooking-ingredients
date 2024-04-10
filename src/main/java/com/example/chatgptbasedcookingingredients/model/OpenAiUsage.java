@@ -1,9 +1,7 @@
 package com.example.chatgptbasedcookingingredients.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Data;
 
-@Data
 public record OpenAiUsage(
         @JsonProperty("prompt_tokens")
         int promptTokens,
